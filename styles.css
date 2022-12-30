@@ -188,10 +188,24 @@ label {
     width:40px;
 }
 /* media Quirey */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    /* For mobile Tablet: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
 
-
-
-
-
+  @media only screen and (min-width: 1200px) {
+    /* For Laptop */
+    [class*="col-"] {
+        width: 100%;
+      }
+  }
 
 /* end CSS */
