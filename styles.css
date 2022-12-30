@@ -57,9 +57,34 @@ nav {
     font-size: normal;
     font-weight: 700;
     font-size: 200px;
+    justify-content: center;
 }
 /* animation */
-
+@keyframes fade-inout {
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+  }
+  /* support for opera */
+  @-o-keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+  }
+  /* support for mozila */
+  @-moz-keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+  }
+  /* support for safari and chrome */
+  @-webkit-keyframes fade-inout{
+    0%{ opacity: 1;}
+    100%{ opacity: 0;}
+  }
+  .hero {
+     -webkit-animation: fade-inout 5s infinite alternate;
+     -moz-animation: fade-inout 5s infinite alternate;
+     -o-animation: fade-inout 5s infinite alternate;
+      animation: fade-inout 5s infinite alternate;
+  }
 /* About Us */
 .about {
     margin-top: 100px;
@@ -154,7 +179,7 @@ label {
     color:black;
     width:100px;
     padding: 10px;
-    margin-left: 200px;
+    margin-left: 210px;
     margin-bottom: 100px;
 }
 .bottom {
