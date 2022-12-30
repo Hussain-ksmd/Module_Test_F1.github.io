@@ -8,10 +8,12 @@
   }
 /* nav bar */
 nav {
+    position: fixed;
+    width: 100%;
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding-top:40px;
+    padding-top:10px;
     padding-left:0;
     background-color:black;
   }
@@ -45,16 +47,18 @@ nav {
     font-family: 'Inter';
 }
 .laptop {
-    margin-left: 1000px;
-    margin-top: 800px;
+    margin-left: 900px;
+    margin-top: 30px;
 }
-.mh {
+.hero {
     margin-top:0px;
+    margin-left: 30px;
     font-family: 'Inter';
     font-size: normal;
     font-weight: 700;
     font-size: 200px;
 }
+/* animation */
 
 /* About Us */
 .about {
