@@ -1,0 +1,138 @@
+/* google font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* nav bar */
+.navbar {
+    margin-top: 0px;
+    background-color: black;
+    color:aliceblue;
+    padding:40px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+}
+.navbar li {
+    margin-top: 0px;
+    display: inline;
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* main section */
+.ms {
+    margin-top: -200px;
+    background-color: black;
+    color:white;
+    font-family: 'Inter';
+}
+.laptop {
+    margin-left: 1000px;
+    margin-top: 800px;
+}
+.mh {
+    margin-top: 200px;
+    font-family: 'Inter';
+    font-size: normal;
+    font-weight: 700;
+    font-size: 200px;
+}
+
+/* About Us */
+.about {
+    margin-top: 100px;
+    display: flex;
+    margin-left: 70px;
+}
+.ab h1 {
+    color: black;
+}
+.al {
+    margin-left: 40px;
+}
+
+/* Our services */
+.services {
+ display: flex;
+ overflow: auto;
+}
+.b {
+    color: black;
+    margin-left:20px;
+}
+.box {
+    display: block;
+    border: 1px solid black;
+    border-width: 2px;
+    height:250px;
+    width:450px;
+    margin-left: 20px;
+    font-family: 'Inter';
+    font-weight: 300;
+}
+p {
+    margin-left: 15px;
+}
+h3 {
+    margin-left: 15px;
+}
+
+/* Contact section */
+.last {
+    background-color: black;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: xx-large; */
+    font-size: 50px;
+    padding-top: 30px;
+    color:aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    border-color: white;
+    border-width: 0.8px;
+    border-radius: 2px;
+    width:70%;
+    /* margin-left: 100px; */
+    color:white;
+}
+label {
+    margin: 20px;
+}
+.button {
+    background-color: white;
+    color:black;
+    width:100px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.bottom {
+    background-color: black;
+    height: 40px;
+    width:40px;
+}
+/* media Quirey */
+
+
+
+
+
+
+/* end CSS */
